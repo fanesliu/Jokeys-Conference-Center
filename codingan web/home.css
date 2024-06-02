@@ -1,0 +1,282 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E3E3E3;
+}
+
+header {
+    background-color: #FBFAF9;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: rgb(26, 25, 25);
+    text-decoration: none;
+}
+
+.header-text {
+    padding: 20px;
+    color: black;
+}
+
+main {
+    margin: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    header, main {
+        padding: 15px;
+    }
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 150px;
+    width: 163px;
+    top: -9px;
+    left: -7px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h2 {
+    margin-left: 15px;
+    color:black
+}
+
+main section img {
+    max-width: 100%;
+    height: auto;
+}
+footer {
+    background-color: #FBFAF9;
+    color: rgb(26, 25, 25);
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content p {
+    margin: 0;
+}
+footer {
+    background-color:#142850;
+    color: rgb(26, 25, 25);
+    padding: 10px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 50px;
+    position: relative;
+}
+.copyright {
+    position: absolute;
+    color: black;
+    right: 20px;
+    bottom: 1px;
+}
+
+.logo-footer img {
+    height: 150px;
+    width: auto;
+}
+
+.social-media img {
+    height: 60px;
+    width: auto;
+    margin: 0 10px;
+}
+
+.copyright {
+    position: absolute;
+    color: black;
+    right: 20px;
+    bottom: 20px;
+}
+.welcome-text {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome-message {
+    text-align: center;
+}
+
+.book-now-btn {
+    display: inline-block;
+    color: #3F87F5;
+    background-color: #FBFAF9;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;    
+}
+.social-media img {
+    width: 60px;
+    height: 50px;
+    margin: 0 10px;
+}
+.event {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.event-info {
+    display: flex;
+    padding-left: 150px;
+    flex-direction: column;
+    align-items: start;
+}
+
+.explore-event-btn {
+    display: inline-block;
+    color: #669DB3;
+    background-color: #FBFAF9;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 3px solid #669DB3; /* Menambahkan garis tepi */
+}
+
+.explore-event-btn:hover {
+    background-color: #669DB3;
+    color: #FBFAF9;
+    border-color: #FBFAF9; /* Mengubah warna garis tepi saat dihover */
+}
+
+.jcc-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.jcc-title {
+    text-align: center;
+    width: 100%;
+}
+
+.info-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: start;
+    margin-top: 20px;
+}
+
+.info-content img {
+    width: 40%; /* Adjust this as per your preference */
+    max-width: 100%;
+    height: auto;
+}
+
+.info-text {
+    width: 55%; /* Adjust this as per your preference */
+    text-align: justify;
+    line-height: 1.6; /* Increase this for more space between lines */
+    padding: 20px; /* Add space around the text */
+    margin: 20px; /* Add space around the text element */
+}
+.info-content p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700; 
+    font-size: 16px; 
+    padding-left: 90px;
+}
+.jcc-info h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    font-weight: bold;
+}
+.event-info h2 {
+    margin-bottom: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    font-weight: bold;
+}
+.event-info h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 800; /* untuk extra bold */
+    color: #669DB3;
+}
+.event-info h5 {
+    margin-top: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #6C6C6C;
+}
+.social-media h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #779FE5;
+    margin-bottom: 10px; /* Jarak antara teks dan gambar media sosial */
+}
+.welcome-message h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+ul.menu {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+ul.menu li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+ul.menu li a {
+    text-decoration: none;
+    color: #000;
+}
+ul.menu li a:hover {
+    color: #506680; /* Ganti dengan warna yang Anda inginkan saat dihover */
+}

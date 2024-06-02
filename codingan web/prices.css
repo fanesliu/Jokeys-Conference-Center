@@ -1,0 +1,219 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FBFAF9;
+}
+
+header {
+    background-color: #E3E3E3;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: rgb(26, 25, 25);
+    text-decoration: none;
+}
+
+.header-text {
+    padding: 20px;
+    color: black;
+}
+
+main {
+    margin: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    header, main {
+        padding: 15px;
+    }
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 150px;
+    width: 163px;
+    top: -9px;
+    left: -7px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h2 {
+    margin-left: 15px;
+    color:black
+}
+
+
+footer {
+    background-color: #FBFAF9;
+    color: rgb(26, 25, 25);
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content p {
+    margin: 0;
+}
+footer {
+    background-color:#142850;
+    color: rgb(26, 25, 25);
+    padding: 10px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 50px;
+    position: relative;
+}
+.copyright {
+    position: absolute;
+    color: black;
+    right: 20px;
+    bottom: 1px;
+}
+
+.logo-footer img {
+    height: 150px;
+    width: auto;
+}
+
+.social-media img {
+    height: 60px;
+    width: auto;
+    margin: 0 10px;
+}
+
+.copyright {
+    position: absolute;
+    color: black;
+    right: 20px;
+    bottom: 20px;
+}
+
+.social-media h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #779FE5;
+    margin-bottom: 10px; /* Jarak antara teks dan gambar media sosial */
+}
+.price-section {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.section-title {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.package-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.package {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #FBFAF9;
+    border-radius: 10px;
+    transition: background-color 0.75s ease;
+}
+
+.package:hover {
+    background-color: #3F87F5;
+    cursor: pointer;
+}
+
+
+.package-price {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.package-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.package-description {
+    margin-top: 10px;
+}
+
+.feature-list {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.feature-list li {
+    margin-bottom: 5px;
+}
+
+
+.choose-plan-btn {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #506680;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Menambahkan transisi warna */
+}
+
+.choose-plan-btn:hover {
+    background-color: #FBFAF9;
+    color: #506680; /* Mengubah warna teks saat dihover */
+}
+ul.menu {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+ul.menu li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+ul.menu li a {
+    text-decoration: none;
+    color: #000;
+}
+ul.menu li a:hover {
+    color: #506680; /* Ganti dengan warna yang Anda inginkan saat dihover */
+}

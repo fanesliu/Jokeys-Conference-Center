@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="logo.png" alt="JCC Logo">
+                <h2>Jockey's Conference Center</h2>
+            </div>
+            <ul class="menu">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="prices.html">Prices</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <h1>Contact Us</h1>
+        <form id="contactForm">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <div class="error" id="nameError"></div>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <div class="error" id="emailError"></div>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+                <div class="error" id="phoneError"></div>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <div class="error" id="messageError"></div>
+            </div>
+
+            <div class="form-group">
+                <label for="contactMethod">Preferred Contact Method:</label>
+                <input type="checkbox" id="contactMethodPhone" name="contactMethodPhone"> Phone
+                <input type="checkbox" id="contactMethodEmail" name="contactMethodEmail"> Email
+                <div class="error" id="contactMethodError"></div>
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script src="contact.js"></script>
+
+    <footer>
+        <div class="footer-content">
+            <div class="logo-footer">
+                <img src="logo.png" alt="JCC Logo">
+            </div>
+            <div class="social-media">
+                <h3>Our Social Media</h3>
+                <a href="#"><img src="facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="twitter.png" alt="Twitter"></a>
+                <a href="#"><img src="instagram.png" alt="Instagram"></a>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Jockey's Conference Center. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
